@@ -7,4 +7,4 @@
 - CSS
 <br>
 - JavaScripts
-
+<img src= url https://github.com/REGINALDOBOMFIM/Desafio-Jockey-pow/blob/main/imag%20readme.PNG?raw=true>

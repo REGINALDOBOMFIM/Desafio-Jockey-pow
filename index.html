@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bungee+Spice&family=Rubik+Scribble&display=swap"
+        rel="stylesheet">
+    <title>Jockey pow</title>
+</head>
+
+<body>
+    <div class="container">
+
+        <h1>Jockey Pow</h1>
+
+        <div class="buttons">
+            <button id="paper" onclick="playhuman('paper')">&#x1F590;&#x1F3FF;</button>
+            <button id="stone" onclick="playhuman('stone')">&#x1F44A;&#x1F3FF;</button>
+            <button id="scissors" onclick="playhuman('scissors')">&#x270C;&#x1F3FF</button>
+        </div>
+        <div class="resultado">
+            <p class="result"></p>
+        </div>
+
+        <div class="pontos">
+            <h3 class="meuPonto"> Sua pontuação: <span id="human-score">0</span></h3>
+            <br>
+            <h3 class="alexaPonto"> Pontuação da Alexa: <span id="machine-score">0</span></h3>
+        </div>
+
+    </div>
+
+    <script src="scripts.js"></script>
+
+</body>
+
+</html>
